@@ -1,0 +1,155 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/dark_oak_planks",
+    "border": "minecraft:block/dark_oak_planks",
+    "back": "minecraft:block/black_concrete"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        15
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#back"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        14,
+        14
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#border"
+        },
+        "south": {
+          "texture": "#border"
+        },
+        "east": {
+          "texture": "#border"
+        },
+        "west": {
+          "texture": "#border"
+        },
+        "up": {
+          "texture": "#border"
+        },
+        "down": {
+          "texture": "#border"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        14
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#border"
+        },
+        "south": {
+          "texture": "#border"
+        },
+        "east": {
+          "texture": "#border"
+        },
+        "west": {
+          "texture": "#border"
+        },
+        "up": {
+          "texture": "#border"
+        },
+        "down": {
+          "texture": "#border"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        2,
+        14
+      ],
+      "to": [
+        2,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#border"
+        },
+        "south": {
+          "texture": "#border"
+        },
+        "east": {
+          "texture": "#border"
+        },
+        "west": {
+          "texture": "#border"
+        },
+        "up": {
+          "texture": "#border"
+        },
+        "down": {
+          "texture": "#border"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        2,
+        14
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#border"
+        },
+        "south": {
+          "texture": "#border"
+        },
+        "east": {
+          "texture": "#border"
+        },
+        "west": {
+          "texture": "#border"
+        },
+        "up": {
+          "texture": "#border"
+        },
+        "down": {
+          "texture": "#border"
+        }
+      }
+    }
+  ]
+}

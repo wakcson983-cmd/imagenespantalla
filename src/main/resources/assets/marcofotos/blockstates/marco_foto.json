@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "marcofotos:block/marco_foto"
+    },
+    "facing=east": {
+      "model": "marcofotos:block/marco_foto",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "marcofotos:block/marco_foto",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "marcofotos:block/marco_foto",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "marcofotos:block/marco_foto",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "marcofotos:block/marco_foto",
+      "x": 90
+    }
+  }
+}

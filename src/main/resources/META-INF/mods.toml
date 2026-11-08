@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="marcofotos"
+version="1.0.0"
+displayName="Marco de Fotos"
+description='''Marco de fotos (como una pintura) e item Imagen para mostrar imagenes, gifs y videos en la pantalla de todos los jugadores.'''
+
+[[dependencies.marcofotos]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.marcofotos]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
